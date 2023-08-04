@@ -1,0 +1,22 @@
+
+  .addTicket{
+    margin-left: 10px;
+margin-right: 0px;
+    padding: 20px; 
+    /* background-color: #ffffff; */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(2, 2, 44, 0.842);
+    width: 85vw;
+    height: 75vh;
+  }
+  .ticket-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 0;
+    padding: 0;
+  }
+  
+  
+  

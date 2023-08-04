@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  /* min-height: 100vh; */
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #343a40;
+  padding: 10px;
+  text-align: center;
+  color: white;
+ 
+}
+
+.iconLink {
+  display: inline-block;
+  margin-right: 10px;
+  color: #e8e0e0;
+  transition: color 0.3s ease;
+  font-size: 24px;
+}
+
+.iconLink:hover,
+.iconLink:focus {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.iconText {
+  margin-left: 5px;
+}
+
+.iconSpace {
+  width: 10px; 
+  display: inline-block;
+}

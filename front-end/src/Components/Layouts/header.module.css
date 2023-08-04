@@ -1,0 +1,37 @@
+.navbar {
+  background-color: #343a40;
+  
+    border-bottom: 5px solid #351dbd;
+  }
+  
+
+
+.brand {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navLinks {
+  margin-left: auto; 
+  
+}
+
+.navLink {
+  color: #f5f6f7; 
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+  margin-right: 10px;
+  font-size: 20px; 
+}
+.navLink:hover,
+.navLink:focus {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+.userLogo {
+  width: 20px; 
+  height: auto; 
+  margin-right: 5px; 
+}

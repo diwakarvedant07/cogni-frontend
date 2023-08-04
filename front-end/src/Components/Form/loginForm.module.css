@@ -1,0 +1,17 @@
+.login-form {
+  background-color: #8d88ca; 
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+  max-height: 100px; 
+ margin: 0 0 0 7.5vw;
+}

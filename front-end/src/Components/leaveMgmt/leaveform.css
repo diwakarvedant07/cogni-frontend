@@ -1,0 +1,71 @@
+.field-holder {
+  position: relative;
+  margin-bottom: 1.25em;
+}
+
+.inputLeave {
+  position: absolute;
+  border: 0;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-bottom: 5px solid #dfdfdf;
+  outline: none;
+}
+
+.labelLeave {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 0px;
+  color: #424242;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  cursor: text;
+  transition: 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.form {
+  width: 50%;
+  margin: 10px 10px 10px 10px;
+  font-size: 20px;
+}
+
+input[type="date"]:required:invalid::-webkit-datetime-edit {
+  color: transparent;
+}
+input[type="date"]:focus::-webkit-datetime-edit {
+  color: black !important;
+}
+
+.inputLeave,
+.labelLeave {
+  font-size: 1em;
+}
+
+.inputLeave:focus + .labelLeave,
+.inputLeave:valid + .labelLeave {
+  color: #424242;
+  font-size: 0.75em;
+  top: -18px;
+  pointer-events: none;
+}
+
+.name {
+  margin-top: 20px;
+}
+
+.date {
+  position: relative;
+  margin-top: 80px;
+}
+
+.reason {
+  margin-top: 80px;
+}
+
+.btnleave {
+  position: relative;
+  align-self: bottom;
+  margin-top: 80px;
+}
